@@ -4,7 +4,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Shooting Game</title>
-<link rel="stylesheet" href="style.css">
 <style>
     body {
         font-family: Arial, sans-serif;
@@ -19,7 +18,7 @@
 </head>
 <body>
 <h2>Shooting Game</h2>
-<canvas id="gameCanvas" width="600" height="400"></canvas>
+<canvas id="gameCanvas" width="800" height="600"></canvas>
 
 <script>
     const canvas = document.getElementById('gameCanvas');
@@ -133,4 +132,3 @@
 </script>
 </body>
 </html>
-
